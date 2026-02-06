@@ -4,7 +4,6 @@ bits 16
 
 
 %define ENDL 0x00, 0x0A
-%define 
 start:
 	jmp main
 puts:
