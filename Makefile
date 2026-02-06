@@ -1,7 +1,9 @@
 ASM=nasm
-
+BASIC=BASIC
 SRC_DIR=src
 BUILD_DIR=build
+
+
 
 $(BUILD_DIR)/yaoi.img: $(BUILD_DIR)/main.bin
 	cp $(BUILD_DIR)/main.bin $(BUILD_DIR)/yaoi.img
