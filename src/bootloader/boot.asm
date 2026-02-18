@@ -19,6 +19,7 @@ bdb_hidden_sectors: dd 0
 bdb_large_sector_count: dd 0
 edr_drive_number: db 0
 		  db 0
+
 ebr_signature:    db 29h
 ebr_volume_id:    dd 67676767h   
 ebr_volume_label: db 'Urahara    '
